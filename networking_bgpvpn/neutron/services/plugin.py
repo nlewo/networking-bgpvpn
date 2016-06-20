@@ -14,7 +14,7 @@
 #    under the License.
 
 from neutron.db import servicetype_db as st_db
-from neutron.i18n import _LI
+from neutron._i18n import _LI
 from neutron import manager
 from neutron.plugins.common import constants as plugin_constants
 from neutron.services import provider_configuration as pconf
@@ -24,6 +24,7 @@ from neutron_lib import constants as const
 from neutron_lib import exceptions as n_exc
 
 from oslo_log import log
+# from oslo_i18n import _LI
 
 from networking_bgpvpn.neutron.extensions.bgpvpn import BGPVPNPluginBase
 from networking_bgpvpn.neutron.services.common import constants

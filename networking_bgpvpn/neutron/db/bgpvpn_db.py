@@ -17,8 +17,8 @@ from neutron.db import common_db_mixin
 from neutron.db import model_base
 from neutron.db import models_v2
 
-from neutron.i18n import _LI
-from neutron.i18n import _LW
+from neutron._i18n import _LI
+from neutron._i18n import _LW
 
 from oslo_db import exception as db_exc
 from oslo_log import log

@@ -25,7 +25,7 @@ from neutron.db import l3_db
 from neutron.db import models_v2
 from neutron.debug import debug_agent
 from neutron.extensions import portbindings
-from neutron.i18n import _LE
+from neutron._i18n import _LE
 from neutron import manager
 
 from neutron_lib import constants as const
